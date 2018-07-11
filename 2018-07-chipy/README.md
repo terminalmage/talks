@@ -26,7 +26,7 @@ data](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/srv
 Instead of using that key, you can determine that the event is for a login if
 `data['type'] == 7`, and, a logout if `data['type'] == 8`.
 
-The slides are in OpenDocument Format, and can be opened both in
+The slides from my talk are in OpenDocument Format, and can be opened both in
 [LibreOffice](https://www.libreoffice.org/) and [Apache
 OpenOffice](https://www.openoffice.org/). Download them
 [here](https://github.com/terminalmage/talks/tree/master/2018-07-chipy/ChiPy.odp).
