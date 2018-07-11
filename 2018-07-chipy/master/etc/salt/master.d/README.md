@@ -9,7 +9,7 @@ will also be added to the Master configuration.
 This sets up the
 [pillar](https://docs.saltstack.com/en/latest/topics/tutorials/pillar.html)
 configuration for the Master. Pillar data is used in the
-[users.jinja](https://fix.this) SLS file.
+[users.jinja](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/srv/salt/users/jinja.sls) SLS file.
 
 ## reactor.conf
 
@@ -30,7 +30,7 @@ salt-call --local tls.create_self_signed_cert
 Note that this uses the `auto` external authentication plugin. This is used
 striictly for demonstration purposes and should never be used in production,
 since it will always permit the login. More usage details are in the
-[slides](https://fix.this).
+[slides](https://github.com/terminalmage/talks/tree/master/2018-07-chipy/ChiPy.odp).
 
 ## slack.conf
 
