@@ -4,19 +4,19 @@ While the default Master config file is
 `/etc/salt/master`, any files ending in `.conf` within `/etc/salt/master.d`
 will also be added to the Master configuration.
 
-## pillar.conf
+## [pillar.conf](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/etc/salt/master.d/pillar.conf)
 
 This sets up the
 [pillar](https://docs.saltstack.com/en/latest/topics/tutorials/pillar.html)
 configuration for the Master. Pillar data is used in the
 [users.jinja](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/srv/salt/users/jinja.sls) SLS file.
 
-## reactor.conf
+## [reactor.conf](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/etc/salt/master.d/reactor.conf)
 
 This configures the events on which the [Reactor
 System](https://docs.saltstack.com/en/latest/topics/reactor/) will take action.
 
-## salt-api.conf
+## [salt-api.conf](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/etc/salt/master.d/salt-api.conf)
 
 This enables the CherryPy-based REST interface for Salt. To create a TLS cert,
 use the following masterless Salt command (requires
@@ -32,7 +32,7 @@ striictly for demonstration purposes and should never be used in production,
 since it will always permit the login. More usage details are in the
 [slides](https://github.com/terminalmage/talks/tree/master/2018-07-chipy/ChiPy.odp).
 
-## slack.conf
+## [slack.conf](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/etc/salt/master.d/slack.conf)
 
 This file contains the Slack engine configuration, as well as the configuration
 necsesary for the reactor configuration files to report the wtmp/btmp events.
