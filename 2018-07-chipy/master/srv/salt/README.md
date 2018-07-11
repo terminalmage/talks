@@ -29,7 +29,7 @@ these existed, then `salt://foo/bar.sls` would take precedence. It is generally
 not a good idea to keep files and directories which would both have the same
 SLS name, to reduce confusion.
 
-## top.sls
+## [top.sls](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/srv/salt/top.sls)
 
 This file is used to target Minions and apply one or more SLS files to them.
 See the below links for more information:
