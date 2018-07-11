@@ -21,9 +21,10 @@ which will help to give further context.
 
 Also, note that some of the functionality in the wtmp reactor SLS file uses new
 code, still pending merge into Salt's `develop` branch, specifically the
-`action` key in the event data. Instead of using that key, you can determine
-that the event is for a login if `data['type'] == 7`, and, a logout if
-`data['type'] == 8`.
+[`action` key in the event
+data](https://github.com/terminalmage/talks/blob/master/2018-07-chipy/master/srv/salt/reactor/wtmp.sls#L7).
+Instead of using that key, you can determine that the event is for a login if
+`data['type'] == 7`, and, a logout if `data['type'] == 8`.
 
 The slides are in OpenDocument Format, and can be opened both in
 [LibreOffice](https://www.libreoffice.org/) and [Apache
