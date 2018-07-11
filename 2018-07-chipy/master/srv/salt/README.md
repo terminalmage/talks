@@ -13,7 +13,7 @@ When applying individual SLS files using
 SLS files are referred to without the `.sls` extension, and with the slashes
 replaced by dots. So, `/srv/salt/foo.sls` (i.e. `salt://foo.sls`) would be
 applied using `state.apply foo`, and `/srv/salt/foo/bar.sls` would be applied
-using `state.apply
+using `state.apply foo.bar`.
 
 ```
 # Apply salt://foo.sls
