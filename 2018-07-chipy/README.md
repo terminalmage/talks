@@ -52,4 +52,5 @@ The social media icons in the slides are courtesy of
 - [Engines](https://docs.saltstack.com/en/latest/topics/engines/index.html)
 - [Returners](https://docs.saltstack.com/en/latest/ref/returners/)
 - [Git Fileserver Backend](https://docs.saltstack.com/en/latest/topics/tutorials/gitfs.html)
-
+- [Contributing to Salt](https://docs.saltstack.com/en/latest/topics/development/contributing.html)
+- [Developer's Reference](https://docs.saltstack.com/en/latest/topics/development/)
