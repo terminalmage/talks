@@ -1,0 +1,4 @@
+base:
+  '*':
+    - slack.returner
+    - beacons
