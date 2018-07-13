@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+token=$1
+hook=$2
+data=$3
+
+_abort() {
+    message=$1
+    echo "$message" 1>&2
+    exit 1
+}
+
+test -n "$token" || _abort "Missing token"
+test -n "$hook" || _abort "Missing hook"
+test -n "$data" || data="{}"
+
+# Escape the double quotes in the JSON
+data=${data//"/\\"}
+
+curl -sSk https://10.0.13.37:8000/hook/$hook \
+  -H 'Content-type: application/json' \
+  -H "X-Auth-Token: $token" \
+  -d "$data"

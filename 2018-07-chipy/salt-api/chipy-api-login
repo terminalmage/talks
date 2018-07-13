@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+curl -sSk https://10.0.13.37:8000/login \
+  -H 'Accept: application/x-yaml' \
+  -d username=saltdev \
+  -d password=saltdev \
+  -d eauth=auto
